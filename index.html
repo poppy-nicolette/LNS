@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LNS resources</title>
+    <style>
+      :root
+      {
+        --box-side : min( 25vmin, 320px ) ;
+      }
+      
+      img
+      {
+        background : white ;
+        border : none ;
+        height : var( --box-side ) ;
+        object-fit : contain ;
+        width : var( --box-side ) ;
+      }
+      html * {
+        font-size: 16px;
+        line-height: 1.625;
+        color: #2020131;
+        font-family: Nunito, sans-serif;
+      }
+      svg.markmap {
+        width: 100%;
+        height: 100vh;
+      }
+      #logo_box {
+      	height: 100px;
+      	width: 150px;
+      	position: absolute;
+      	top: 10px;
+      	left: 10px;
+      }
+      #text_box {
+      	height: 100px;
+      	width: 600px;
+      	position: absolute;
+      	top: 10px;
+      	left: 180px;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.15.2"></script>
+  </head>
+  <body>
+  	<div id="logo_box">
+  		<object data="www/LNSlogo_3.5in.jpg" width="150" height="100"> </object>
+  	</div>
+  	<div id="text_box">
+  		<h1> Map of resources for Literacy Nova Scotia</h1>
+  		<p>	This map is just a temporary spot to have resources for the new LNS data hub. The items included here are just a consideration of the things we'd like to have in the final website.</p>
+
+  	</div>
+    <div class="markmap">
+      <script type="text/template">
+        ---
+        markmap:
+          maxWidth: 300
+          colorFreezeLevel: 5
+          initialExpandLevel: 1
+          embedAssets: true
+          duration: 400
+          zoom: true
+          htmlParser:
+            selector:h1,h2,h3,ul,ol,li,table,pre
+
+        ---
+        
+        # LNS resources
+
+        ## within LNS
+         - [LNS Resource Hub](https://resourcehub.literacyns.ca/)
+         - []()
+
+         ## Nova Scotia
+         - [Impact Organizations of Nova Scotia](https://ions.ca/)
+         - [Engage Nova Scotia](https://engagenovascotia.ca/wellbeing-analysis-tool)
+          - [Environics Inst data tables](https://www.environicsinstitute.org/docs/default-source/default-document-library/environics-social-capital-2022-10-28a5abb9e91fef47cf981f39462ccbe375.pdf?sfvrsn=8344fe53_0)
+         
+        ## Victoria
+         - [Literacy Victoria](https://literacyvictoria.ca/)
+         - [Greater Victoria Alliance for Literacy](https://spaces.hightail.com/space/MXapQOetzA/files#pageThumbnail-1)
+         
+
+         ## Community Foundations
+         - [Community Foundations archive](https://communityfoundations.ca/past-reports/)
+         - [Vital Signs reports](https://communityfoundations.ca/initiatives/vital-signs/)
+         - [Nova Scotia's 2016 report](https://communityfoundations.ca/wp-content/uploads/2019/08/2016_Cumberland-County.pdf)
+         - [Nova Scotia's 2017 report](https://communityfoundations.ca/wp-content/uploads/2019/08/2017_CFNS-Colchester-Vital-Signs-FINAL-UPDATED.pdf)
+
+         ## Data sources
+         - [Statistics Canada](https://www.statcan.gc.ca/en/start)
+         - [Sustainable Development Goals](https://sdgcif-data-canada-oddcic-donnee.github.io/)
+
+         ## Example Dashboards
+         - [Forestry Council](https://forestrysectorcouncil.ca/resources/labour-market-information/)
+         - [unesco intangible heritage](https://ich.unesco.org/en/dive)
+         - [NS School for Adult Learning Map of community learning orgs](https://experience.arcgis.com/experience/4fd54c7ce5ea449fbcdd5522ae2d7e4b)
+         - [NS Quality of Life Map](https://datatool.nsqualityoflife.ca/?tree=0a0b1a0b2&map=RES_ORL&split=1&bo=linkert&oo=linkert&mo=linkert&weighted=0&mapAreaType=postal&lat=42.83569550641452&long=-62.10944443199746&zoom=6&maximized=0&selection=B0T%252CB3Z%252CB0S%252CB0R%252CB3P)
+         - [Census data explorer](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/dv-vd/cpdv-vdpr/index-eng.cfm)
+         - [Sustainable Development Goals](https://sdgcif-data-canada-oddcic-donnee.github.io/)
+        
+
+
+   
+      </script>
+
+    </div>
+
+  </body>
+</html>
